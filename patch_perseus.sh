@@ -26,7 +26,7 @@ chmod +x apkeep
 
 # Download Azur Lane
 download_azurlane () {
-    if [ ! -f "com.hkmanjuu.azurlane.gp.xapk" ]; then
+    if [ ! -f "https://github.com/psb1212/0703/releases/download/untagged-4fe184c68e9fbd6d5d73/com.hkmanjuu.azurlane.gp.patched.apk" ]; then
     ./apkeep -a com.hkmanjuu.azurlane.gp .
     fi
 }
